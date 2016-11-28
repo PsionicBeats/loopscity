@@ -15,4 +15,12 @@ var partyAnimals = ["Penguin", "Lion", "Dolphin", "Panther", "Emu"];
 for (var partyAnimals)
 
 // Merlin's Battle Weapon
-var 
+var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
+var hero = {
+	wizard: "Merlin", 
+	weapon: weaponChest[2],
+	power: 30, 
+}
+if (weapon = "Sorcerer's Stone") {
+	console.log(wizard + " shall slay the dragon with the " + weapon + "!") 
+}
