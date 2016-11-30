@@ -12,15 +12,25 @@ for (var animalCount = 0; animalCount <= 5; animalCount++) {
 
 // Hip Hop Array
 var partyAnimals = ["Penguin", "Lion", "Dolphin", "Panther", "Emu"];
-for (var partyAnimals)
+for (i = 0; i <= 4; i++){
+	console.log(partyAnimals[i])
+}
 
 // Merlin's Battle Weapon
 var weaponChest = ["Mace", "Sorcerer's Stone", "Excalibur"];
 var hero = {
-	wizard: "Merlin", 
-	weapon: weaponChest[2],
-	power: 30, 
+	wizard: "Merlin",
+	weapon: [2],
+	power: 30
+} 
+
+function theBattle(weapon) {
+	if (weapon = "Sorcerer's Stone") {
+		console.log(hero.wizard + " shall slay the dragon with the " + hero.weapon)
+	}else{
+		hero.weapon = "Sorcerer's Stone"
+		console.log(hero.wizard + " is ready for war with the " + hero.weapon)
+	}
 }
-if (weapon = "Sorcerer's Stone") {
-	console.log(wizard + " shall slay the dragon with the " + weapon + "!") 
-}
+
+theBattle = ("Merlin", "Sorcerer's Stone", 30)
